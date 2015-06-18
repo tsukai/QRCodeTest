@@ -37,11 +37,11 @@ import com.google.zxing.NotFoundException;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
-import com.mining.app.zxing.camera.CameraManager;
-import com.mining.app.zxing.decoding.CaptureActivityHandler;
-import com.mining.app.zxing.decoding.InactivityTimer;
-import com.mining.app.zxing.decoding.RGBLuminanceSource;
-import com.mining.app.zxing.view.ViewfinderView;
+import cn.beijing.zukai.zxing.camera.CameraManager;
+import cn.beijing.zukai.zxing.decoding.CaptureActivityHandler;
+import cn.beijing.zukai.zxing.decoding.InactivityTimer;
+import cn.beijing.zukai.zxing.decoding.RGBLuminanceSource;
+import cn.beijing.zukai.zxing.view.ViewfinderView;
 
 public class MipcaActivityCapture extends Activity implements Callback , View.OnClickListener{
 
